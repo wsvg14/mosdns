@@ -18,13 +18,13 @@ logger = logging.getLogger(__name__)
 # more info: https://golang.org/doc/install/source
 # [(env : value),(env : value)]
 envs = [
-    [['GOOS', 'darwin'], ['GOARCH', 'amd64']],
+    # [['GOOS', 'darwin'], ['GOARCH', 'amd64']],
 
     # [['GOOS', 'linux'], ['GOARCH', '386']],
-    [['GOOS', 'linux'], ['GOARCH', 'amd64']],
+    # [['GOOS', 'linux'], ['GOARCH', 'amd64']],
 
-    [['GOOS', 'linux'], ['GOARCH', 'arm'], ['GOARM', '7']],
-    [['GOOS', 'linux'], ['GOARCH', 'arm64']],
+    # [['GOOS', 'linux'], ['GOARCH', 'arm'], ['GOARM', '7']],
+    # [['GOOS', 'linux'], ['GOARCH', 'arm64']],
 
     # [['GOOS', 'linux'], ['GOARCH', 'mips'], ['GOMIPS', 'hardfloat']],
     [['GOOS', 'linux'], ['GOARCH', 'mips'], ['GOMIPS', 'softfloat']],
@@ -40,7 +40,7 @@ envs = [
     # [['GOOS', 'freebsd'], ['GOARCH', 'amd64']],
 
     # [['GOOS', 'windows'], ['GOARCH', '386']],
-    [['GOOS', 'windows'], ['GOARCH', 'amd64']],
+    # [['GOOS', 'windows'], ['GOARCH', 'amd64']],
 ]
 
 
