@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          repository: IrineSistiana/mosdns
+          repository: wsvg14/mosdns
 
       - name: Set up Go
         uses: actions/setup-go@v2
